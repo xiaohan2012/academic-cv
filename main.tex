@@ -1,0 +1,195 @@
+\documentclass[12pt,]{scrartcl}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[margin=1in]{geometry}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\defaultfontfeatures{Scale=MatchLowercase,Ligatures={TeX}}
+% \setmainfont{Liberation Serif}
+% \setsansfont{Liberation Serif}
+% \setmonofont[SmallCapsFont={Liberation Serif}]{Liberation Serif}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{xcolor}
+\definecolor{cvlinkcolor}{RGB}{6,125,233}
+\hypersetup{colorlinks,linkcolor=cvlinkcolor,citecolor=cvlinkcolor,urlcolor=cvlinkcolor,bookmarksnumbered,bookmarks=false,pdfinfo={Title={Curriculum Vitae},Author={Lighton Phiri},Creator={Lighton Phiri},Subject={Curriculum Vitae},Keywords={Curriculum Vitae},CreationDate={D:20150513232724}}}
+\renewcommand\labelenumi{[\theenumi]}
+
+\date{}
+
+\begin{document}
+
+\begin{table}[h]
+%%%\centering
+{\def\arraystretch{1.2}\tabcolsep=0pt
+\begin{tabular}{p{0.60\linewidth}p{0.05\linewidth}p{0.35\linewidth}}
+
+  \multirow{1}{*}{\LARGE \textbf{Han Xiao}} &  &  \\
+  
+  & & \\
+  
+  Department of Computer Science & \multicolumn{1}{r}{Phone:\;\;} & \multicolumn{1}{l}{$+$358 503252862} \\
+  
+  Aalto University, Espoo, Finland & \multicolumn{1}{r}{Email:\;\;} &\multicolumn{1}{l}{\href{han.xiao@aalto.fi}{han.xiao@aalto.fi}} \\
+  
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Education}\label{education}
+
+% \textbf{\textsuperscript{†}} \emph{Indicates expected}
+
+\begin{table}[h]
+%%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.15\linewidth}p{0.75\linewidth}}
+
+  \multirow{2}{*}[0.85em]{2016 - } & Ph.D. candidate, Computer Science, Aalto University \\
+  
+   & Thesis title:  Query-driven graph mining for social good \\
+  & Supervisor: Aristides Gionis \\
+  
+  2013 - 2016 & M.Sc., Computer Science, University of Helsinki \\
+
+  2008 - 2012 & B.En., Computer Science, Wuhan University of Technology \\
+
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Research Experience}\label{appointments}
+
+\begin{table}[h]
+%%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.15\linewidth}p{0.85\linewidth}}
+
+  2018 & Data Science Intern, Facebook, Inc., London, United Kingdom \\
+  
+  2017 & Research Intern, ISI Foundation, Turin, Italy \\
+  
+  2015 - 2016 & Thesis Worker, Department of Computer Science, Aalto University, Finland \\
+  
+  2014 - 2015 & Research Assistant, Department of Computer Science, Helsinki University, Finland \\
+
+  2012 - 2014 & Research Assistant, School of Life Science, Tongji University, China \\
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Teaching Assistant Experience}\label{teaching}
+
+\begin{table}[!h]
+%%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.20\linewidth}p{0.6\linewidth}p{0.2\linewidth}}
+
+  2018, 2016 & CS-E4600, Algorithmic Methods of Data Mining & Aalto University \\
+  
+  2017 & CS-E4610, Modern Database Systems & Aalto University  \\
+
+  
+\end{tabular}%
+}
+\end{table}
+
+\newpage
+
+
+\subsection{Selected Honours and
+Awards}\label{selected-honours-and-awards}
+
+\begin{table}[!h]
+%%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.10\linewidth}p{0.85\linewidth}}
+
+  2018 & ICDM Student Travel Grant \\
+  
+  2013 & University of Helsinki Scholarship \\
+
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Publications}\label{publications}
+
+\begin{enumerate}
+  %%%%%\leftskip-0.25in % for bullets
+  \leftskip-0.13in % for numbers
+  \item {\textbf{Han Xiao}, Cigdem Aslay, and Aristides Gionis. ``Robust Cascade Reconstruction by Steiner Tree Sampling.'' \textit{IEEE International Conference on Data Mining (ICDM)}.  2018.}
+
+  \item {\textbf{Han Xiao}, et al. ``Reconstructing a cascade from temporal observations.'' \textit{Proceedings of the 2018 SIAM International Conference on Data Mining (SDM)}. 2018.}
+  
+  \item {Kiran Garimella and \textbf{Han Xiao}. ``Media Attention to Science.'' \textit{Proceedings of the 26th International Conference on World Wide Web Companion (WebConf)}. 2017.}
+
+  \item {Fan Yang, Tao Li, Qifeng Zhou, and \textbf{Han Xiao}. ``Cluster ensemble selection with constraints.'' \textit{Neurocomputing}. 2017.}
+
+  \item {\textbf{Han Xiao}, Polina Rozenshtein, and Aristides Gionis. ``Discovering topically-and temporally-coherent events in interaction networks.'' \textit{Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD)}.  2016.}
+
+  \item {Qiu, Tianyi, \textbf{Han Xiao}, et al. ``Proteochemometric modeling of the antigen-antibody interaction: new fingerprints for antigen, antibody and epitope-paratope interaction.'' \textit{PloS one}.  2015}
+\end{enumerate}
+
+
+
+\subsection{Professional Activities}\label{professional-activities}
+
+\begin{itemize}
+  \leftskip-0.25in
+  \item Reviewer, Transactions on the Web, ACM, 2019.
+  \item Reviewer, Data Mining and Knowledge Discovery, Springer, 2019.
+  \item Reviewer, International Conference on Data Engineering, IEEE, 2017.
+  \item Reviewer, Conference on Neural Information Processing Systems, 2016.
+\end{itemize}
+\end{document}
+
